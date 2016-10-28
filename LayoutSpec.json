@@ -1,0 +1,69 @@
+{
+  "name": "My Device",
+  "params": {
+    "width": 75800,
+    "height": 51000
+  },
+  "features": {
+    "97f1fd20-3ea6-11e5-8298-1b576ed4eb08": {
+      "id": "97f1fd20-3ea6-11e5-8298-1b576ed4eb08",
+      "name": "New Port",
+      "type": "Port",
+      "set": "Basic",
+      "layer": "Layer ID",
+      "params": {
+        "position": [
+          30000,
+          40000
+        ],
+        "radius1": 700,
+        "radius2": 700,
+        "height": 100
+      }
+    }
+  },
+  "connections": [
+    {
+      "params": {},
+      "id": "CONNECTION ID",
+      "source": "SOURCE COMPONENT ID",
+      "sinks": [
+        "SINK COMPONENT 0 ID",
+        "SINK COMPONENT 1 ID"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "COMPONENT ID",
+      "techfile": "TECH FILE PATH",
+      "params": []
+    }
+  ],
+  "symmetricgroups(temp)": [
+    {
+      "id": "GROUP ID",
+      "sources": [
+        "SOURCE ID 0",
+        "SOURCE ID 1"
+      ],
+      "sinks": [
+        "SINK ID 0",
+        "SINK ID 1"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "id": "LAYER ID",
+      "name": "flow",
+      "color": "indigo",
+      "below": "LAYER BELOW ID",
+      "above": "LAYER ABOVE ID",
+      "params": {
+        "z_offset": 0,
+        "flip": false
+      }
+    }
+  ]
+}
