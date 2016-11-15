@@ -21,6 +21,8 @@
         "height": 100
       }
     }
+    // physical, fabricatable systems
+    // Note: Will need to add reference to connection ID for channel segments associated with them
   },
   "connections": [
     {
@@ -32,6 +34,7 @@
         "SINK COMPONENT 1 ID"
       ]
     }
+    // edges
   ],
   "components": [
     {
@@ -39,6 +42,7 @@
       "techfile": "TECH FILE PATH",
       "params": []
     }
+    // nodes
   ],
   "symmetricgroups(temp)": [
     {
@@ -57,12 +61,12 @@
     {
       "id": "LAYER ID",
       "name": "flow",
-      "color": "indigo",
       "below": "LAYER BELOW ID",
       "above": "LAYER ABOVE ID",
       "params": {
         "z_offset": 0,
-        "flip": false
+        "flip": false,
+        "color": "indigo"
       }
     }
   ]
