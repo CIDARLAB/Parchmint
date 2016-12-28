@@ -21,8 +21,6 @@
         "height": 100
       }
     }
-    // physical, fabricatable systems
-    // Note: Will need to add reference to connection ID for channel segments associated with them
   },
   "connections": [
     {
@@ -34,15 +32,17 @@
         "SINK COMPONENT 1 ID"
       ]
     }
-    // edges
   ],
   "components": [
     {
       "id": "COMPONENT ID",
       "techfile": "TECH FILE PATH",
+      "layer": [
+        "Layer ID",
+        "Layer ID"
+      ],
       "params": []
     }
-    // nodes
   ],
   "symmetricgroups(temp)": [
     {
