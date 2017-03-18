@@ -1,0 +1,375 @@
+{
+    "components": [
+        {
+            "entity": "Input",
+            "id": "d64e9260-f42f-4b1c-886f-41828f4899af",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Source1"
+        },
+        {
+            "entity": "Input",
+            "id": "174b0fe7-f44d-4fc5-a657-b1cacffa98af",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Source2"
+        },
+        {
+            "entity": "Output",
+            "id": "1fd596b1-a033-455a-a384-bf0fa1eda437",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Out1"
+        },
+        {
+            "entity": "Mixer",
+            "id": "605959bc-808a-46db-a838-0e3d77868fab",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Mixer1"
+        },
+        {
+            "entity": "Mixer",
+            "id": "9397efb3-2884-4ce6-a1df-096811c23390",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Mixer2"
+        },
+        {
+            "entity": "Mixer",
+            "id": "5e0121f2-a861-48fa-bd1b-9841fe23e0f2",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Mixer3"
+        },
+        {
+            "entity": "Mixer",
+            "id": "10d216d9-1564-47d1-bf13-c98dc9b5e65e",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Mixer4"
+        },
+        {
+            "entity": "Heater",
+            "id": "ba3435cd-1c9b-42b1-ae49-0cd09fbeaa44",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Heater1"
+        },
+        {
+            "entity": "Heater",
+            "id": "df5f5be1-ae6d-4650-8e7a-47929867b17e",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Heater2"
+        },
+        {
+            "entity": "Heater",
+            "id": "9053a293-8ab2-4a75-ab9d-5c95a7a91980",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Heater3"
+        },
+        {
+            "entity": "Heater",
+            "id": "f6d95479-3122-4909-a056-33cc2601a45c",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Heater4"
+        },
+        {
+            "entity": "Filter",
+            "id": "43f9c20d-a2e2-4eb1-a6b3-fe34de4e58e0",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Filter1"
+        },
+        {
+            "entity": "Filter",
+            "id": "d98ba8c0-e9e9-4265-b0d9-def5ca90e6d1",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "Filter2"
+        },
+        {
+            "entity": "Switch",
+            "id": "df104300-c745-4b92-8d6a-d18c84ab66d7",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "flow_switch3_0"
+        },
+        {
+            "entity": "Switch",
+            "id": "755fbbc3-d01f-4092-812b-400b2308cbfe",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "flow_switch4_1"
+        },
+        {
+            "entity": "Switch",
+            "id": "3d1b7f34-be57-4c5c-b902-cd6411f67879",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "flow_switch4_2"
+        },
+        {
+            "entity": "Switch",
+            "id": "27dc1d70-8aab-4c71-bb3a-895aed1e89cc",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "flow_switch4_4"
+        },
+        {
+            "entity": "Switch",
+            "id": "7750e447-f6d7-47bd-b635-0c9abfe671e8",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "flow_switch4_5"
+        },
+        {
+            "entity": "Switch",
+            "id": "ba1ab8a2-ad85-48ac-bfb2-b0c1ab53b97a",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "flow_switch4_7"
+        },
+        {
+            "entity": "Switch",
+            "id": "5cbccf62-0509-47f3-b11e-cda4be7c275a",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "flow_switch4_8"
+        },
+        {
+            "entity": "Switch",
+            "id": "18470007-8678-4bab-8bcd-850871c71542",
+            "layers": [
+                "8a5a3c06-dff7-48fc-8242-0f8dcf35885e"
+            ],
+            "name": "flow_switch4_9"
+        }
+    ],
+    "connections": [
+        {
+            "id": "273a695d-7503-4052-8435-1753a2fc751d",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch3_0-Source1",
+            "sinks": [
+                "d64e9260-f42f-4b1c-886f-41828f4899af"
+            ],
+            "source": "df104300-c745-4b92-8d6a-d18c84ab66d7"
+        },
+        {
+            "id": "9c2b1d52-fdeb-462e-8aed-336b0cbf54e9",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch3_0-Source2",
+            "sinks": [
+                "174b0fe7-f44d-4fc5-a657-b1cacffa98af"
+            ],
+            "source": "df104300-c745-4b92-8d6a-d18c84ab66d7"
+        },
+        {
+            "id": "35e9ee35-80f2-4c93-9ad7-35e680f8f3a5",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch3_0-flow_switch4_1",
+            "sinks": [
+                "755fbbc3-d01f-4092-812b-400b2308cbfe"
+            ],
+            "source": "df104300-c745-4b92-8d6a-d18c84ab66d7"
+        },
+        {
+            "id": "cc292d91-5918-497b-ae7b-044748d85208",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_1-flow_switch4_2",
+            "sinks": [
+                "3d1b7f34-be57-4c5c-b902-cd6411f67879"
+            ],
+            "source": "755fbbc3-d01f-4092-812b-400b2308cbfe"
+        },
+        {
+            "id": "f619a6d5-4cca-4965-b751-bd70aeefe56c",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_1-flow_switch4_4",
+            "sinks": [
+                "27dc1d70-8aab-4c71-bb3a-895aed1e89cc"
+            ],
+            "source": "755fbbc3-d01f-4092-812b-400b2308cbfe"
+        },
+        {
+            "id": "b3781a75-0dcb-4aec-a007-5e1074f61e1d",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_2-flow_switch4_5",
+            "sinks": [
+                "7750e447-f6d7-47bd-b635-0c9abfe671e8"
+            ],
+            "source": "3d1b7f34-be57-4c5c-b902-cd6411f67879"
+        },
+        {
+            "id": "d600c466-91a5-4d53-900a-d9acdd43baf4",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_2-Mixer1",
+            "sinks": [
+                "605959bc-808a-46db-a838-0e3d77868fab"
+            ],
+            "source": "3d1b7f34-be57-4c5c-b902-cd6411f67879"
+        },
+        {
+            "id": "c6d59b97-3404-4587-9370-bd36ccc3b680",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_2-Mixer2",
+            "sinks": [
+                "9397efb3-2884-4ce6-a1df-096811c23390"
+            ],
+            "source": "3d1b7f34-be57-4c5c-b902-cd6411f67879"
+        },
+        {
+            "id": "f17688bc-1660-4c9f-9da6-6f22dd1c5985",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_4-flow_switch4_7",
+            "sinks": [
+                "ba1ab8a2-ad85-48ac-bfb2-b0c1ab53b97a"
+            ],
+            "source": "27dc1d70-8aab-4c71-bb3a-895aed1e89cc"
+        },
+        {
+            "id": "998bf0cb-14ef-4a00-bb89-5fbaba3afffe",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_4-Mixer3",
+            "sinks": [
+                "5e0121f2-a861-48fa-bd1b-9841fe23e0f2"
+            ],
+            "source": "27dc1d70-8aab-4c71-bb3a-895aed1e89cc"
+        },
+        {
+            "id": "4f11f993-c241-435d-9160-7b7235ba880b",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_4-Mixer4",
+            "sinks": [
+                "10d216d9-1564-47d1-bf13-c98dc9b5e65e"
+            ],
+            "source": "27dc1d70-8aab-4c71-bb3a-895aed1e89cc"
+        },
+        {
+            "id": "b52feb9d-881f-4f02-8a13-beae560dfe41",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_5-flow_switch4_8",
+            "sinks": [
+                "5cbccf62-0509-47f3-b11e-cda4be7c275a"
+            ],
+            "source": "7750e447-f6d7-47bd-b635-0c9abfe671e8"
+        },
+        {
+            "id": "29b37e16-0c83-406e-8fbf-1bca0f150bf6",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_5-Heater1",
+            "sinks": [
+                "ba3435cd-1c9b-42b1-ae49-0cd09fbeaa44"
+            ],
+            "source": "7750e447-f6d7-47bd-b635-0c9abfe671e8"
+        },
+        {
+            "id": "feebd246-58eb-4afe-b142-aa1b68a49d07",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_5-Heater2",
+            "sinks": [
+                "df5f5be1-ae6d-4650-8e7a-47929867b17e"
+            ],
+            "source": "7750e447-f6d7-47bd-b635-0c9abfe671e8"
+        },
+        {
+            "id": "746c88b3-5640-401d-96b4-f84fb9769524",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_7-flow_switch4_8",
+            "sinks": [
+                "5cbccf62-0509-47f3-b11e-cda4be7c275a"
+            ],
+            "source": "ba1ab8a2-ad85-48ac-bfb2-b0c1ab53b97a"
+        },
+        {
+            "id": "547b0e65-5752-43a3-b7ee-86c5697d5c84",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_7-Heater3",
+            "sinks": [
+                "9053a293-8ab2-4a75-ab9d-5c95a7a91980"
+            ],
+            "source": "ba1ab8a2-ad85-48ac-bfb2-b0c1ab53b97a"
+        },
+        {
+            "id": "8e53fe73-00d1-4dda-9cd8-3ee5b0e9fc8c",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_7-Heater4",
+            "sinks": [
+                "f6d95479-3122-4909-a056-33cc2601a45c"
+            ],
+            "source": "ba1ab8a2-ad85-48ac-bfb2-b0c1ab53b97a"
+        },
+        {
+            "id": "f101048d-bc89-45e1-b1d2-3d652d1c0cd9",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_8-flow_switch4_9",
+            "sinks": [
+                "18470007-8678-4bab-8bcd-850871c71542"
+            ],
+            "source": "5cbccf62-0509-47f3-b11e-cda4be7c275a"
+        },
+        {
+            "id": "38593bf0-034c-46ad-b601-e4b2e918858e",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_9-Filter1",
+            "sinks": [
+                "43f9c20d-a2e2-4eb1-a6b3-fe34de4e58e0"
+            ],
+            "source": "18470007-8678-4bab-8bcd-850871c71542"
+        },
+        {
+            "id": "5a9bf474-d0b0-496a-965e-7758339d96b6",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_9-Filter2",
+            "sinks": [
+                "d98ba8c0-e9e9-4265-b0d9-def5ca90e6d1"
+            ],
+            "source": "18470007-8678-4bab-8bcd-850871c71542"
+        },
+        {
+            "id": "68663961-3315-4915-8b13-e148d7210c8f",
+            "layer": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow_switch4_9-Out1",
+            "sinks": [
+                "1fd596b1-a033-455a-a384-bf0fa1eda437"
+            ],
+            "source": "18470007-8678-4bab-8bcd-850871c71542"
+        }
+    ],
+    "layers": [
+        {
+            "id": "8a5a3c06-dff7-48fc-8242-0f8dcf35885e",
+            "name": "flow"
+        }
+    ],
+    "name": "Planar_Synthetic_1",
+    "params": {
+        "height": 1000,
+        "technology": "test_new",
+        "width": 1000
+    }
+}
