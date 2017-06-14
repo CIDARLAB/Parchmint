@@ -1,0 +1,147 @@
+{
+   "components":[
+      {
+         "name":"ff",
+         "layers":[
+            "8d938195-23af-4a23-8981-9dc5ff1862e7"
+         ],
+         "id":"ff",
+         "ports" : [
+            {"label": "out", "x": 480, "y": 147, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"},
+            {"label": "in", "x": 0, "y": 147, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"},
+         ],
+         "params":{
+            "orientation":"V",
+            "oilChannelWidth":10,
+            "length":294,
+            "width":480,
+            "angle":30,
+            "portRadius":10,
+            "waterChannelWidth":4,
+            "position":[
+               0,
+               0
+            ]
+         },
+         "entity":"FFDroplet"
+      },
+      {
+         "name":"p",
+         "layers":[
+            "8d938195-23af-4a23-8981-9dc5ff1862e7"
+         ],
+         "id":"p",
+         "ports" : [
+            {"label": "in", "x": 0, "y": 0, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"},
+         ],
+         "params":{
+            "portRadius":10,
+            "position":[
+               0,
+               0
+            ]
+         },
+         "entity":"Port"
+      },
+      {
+         "name":"n1",
+         "layers":[
+            "8d938195-23af-4a23-8981-9dc5ff1862e7"
+         ],
+         "id":"n1",
+         "ports" : [
+            {"label": "p1", "x": 0, "y": 0, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"},
+            {"label": "p2", "x": 0, "y": 0, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"},
+            {"label": "p3", "x": 0, "y": 0, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"},
+            {"label": "p4", "x": 0, "y": 0, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"}
+         ],
+         "params":{
+            "width":2,
+            "length":0,
+            "position":[
+               0,
+               0
+            ]
+         },
+         "entity":"Node"
+      },
+      {
+         "name":"n2",
+         "layers":[
+            "8d938195-23af-4a23-8981-9dc5ff1862e7"
+         ],
+         "id":"n2",
+         "ports" : [
+            {"label": "p1", "x": 0, "y": 0, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"},
+            {"label": "p2", "x": 0, "y": 0, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"},
+            {"label": "p3", "x": 0, "y": 0, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"},
+            {"label": "p4", "x": 0, "y": 0, "layer": "8d938195-23af-4a23-8981-9dc5ff1862e7"}
+         ],
+         "params":{
+            "width":10,
+            "length":0,
+            "position":[
+               0,
+               0
+            ]
+         },
+         "entity":"Node"
+      }
+   ],
+   "name":"flow_focus",
+   "layers":[
+      {
+         "name":"control",
+         "id":"b20a2a23-4858-4716-97d0-7c9f1f76c74f",
+         "type":"control",
+         "params":{
+            "flip":true,
+            "z_offset":1200
+         }
+      },
+      {
+         "name":"flow",
+         "id":"8d938195-23af-4a23-8981-9dc5ff1862e7",
+         "type":"flow",
+         "params":{
+            "flip":false,
+            "z_offset":0
+         }
+      }
+   ],
+   "params":{
+      "width":2147483647,
+      "lambda":10,
+      "technology":"boston_university",
+      "height":2147483647
+   },
+   "connections":[
+      {
+         "sinks":[
+            {"component": "n1", "port": "p1"}
+         ],
+         "name":"c1",
+         "id":"cf309b90-937f-4460-8e2a-c5439d05ee41",
+         "source": {"component": "ff", "port": "out"},
+         "layer":"8d938195-23af-4a23-8981-9dc5ff1862e7"
+      },
+      {
+         "sinks":[
+            {"component": "n1", "port": "p2"}
+         ],
+         "name":"c2",
+         "id":"d90a2e6d-18f5-4e35-9917-650549334f05",
+         "source": {"component": "n2", "port": "p1"},
+         "layer":"8d938195-23af-4a23-8981-9dc5ff1862e7"
+      },
+      {
+         "sinks":[
+            {"component": "n2", "port": "p2"}
+         ],
+         "name":"c3",
+         "id":"d8acf1bb-4cb3-4570-a71d-6403ffc9747a",
+         "source": {"component": "p", "port": "in"},
+         "layer":"8d938195-23af-4a23-8981-9dc5ff1862e7"
+      }
+   ]
+}
