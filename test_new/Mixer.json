@@ -1,0 +1,7 @@
+{
+"component": "Mixer",
+"size": {"height": 20, "width": 20},
+"functions": [ {"function": "mix", "parameters": [ "id","time" ] },{"function": "Mix", "parameters": [ "id","time" ] } ],
+"controlPorts": { "number": 9, "locations": [ 8,10,12,20,22,24,48,50,52 ] },
+"flowPorts": { "number": 2, "locations": [{"x": 20, "y": 10},{"x": 0, "y": 10}] }
+}

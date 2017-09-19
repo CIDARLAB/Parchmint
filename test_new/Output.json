@@ -1,0 +1,7 @@
+{
+"component": "Output",
+"size": {"height": 20, "width": 20},
+"functions": [ {"function": "Output", "parameters": [ "id","amount" ] },{"function": "output", "parameters": [ "id","amount" ] } ],
+"controlPorts": { "number": 1, "locations": [{"x": 10, "y": 0}] },
+"flowPorts": { "number": 1, "locations": [{"x": 10, "y": 0}] }
+}

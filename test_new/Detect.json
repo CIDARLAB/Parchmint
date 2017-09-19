@@ -1,0 +1,7 @@
+{
+"component": "Detector",
+"size": {"height": 20, "width": 20},
+"functions": [ {"function": "detect", "parameters": [ "id","time" ] },{"function": "Detect", "parameters": [ "id","time" ] } ],
+"controlPorts": { "number": 2, "locations": [{"x": 10, "y": 0},{"x": 10, "y": 20}] },
+"flowPorts": { "number": 2, "locations": [{"x": 10, "y": 0},{"x": 10, "y": 20}] }
+}
