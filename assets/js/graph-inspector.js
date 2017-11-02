@@ -203,3 +203,11 @@ function parseJSON(text) {
     updateD3();
 
 }
+
+function clearGraph() {
+    d3.selectAll("svg > *").remove();
+    data = {
+        "nodes": [],
+        "links": []
+    }
+}

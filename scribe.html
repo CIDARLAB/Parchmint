@@ -55,7 +55,7 @@
                     </li>
 
                     <li>
-                        <a href="#standard">Standard</a>
+                        <a href="./index.html#standard">Standard</a>
                     </li>
                     <li>
                         <a href="./visualize.html">Visualize</a>
@@ -74,30 +74,49 @@
     <div class="container">
 
         <div class="page-header" id="banner">
-            <div class="row">
-                <div class="col-lg-8 col-md-7 col-sm-6">
-                    <br />
-                    <br /><span class="lead">Select a Benchmark (JSON File) to visualize it as a graph &nbsp &nbsp</span>
-                    <span class="btn btn-primary" onclick="document.getElementById('input').click();">Upload Design 
-                        <input type="file" class="upload" style="display:none" id="input" />
-                    </span>
-                    <span class="btn btn-danger" onclick="clearGraph()">Clear</span>
-                </div>
-            </div>
         </div>
 
         <section id="canvas">
-            <svg width="1200" height="800"></svg>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="well">
+                        <form class=" form-horizontal ">
+                            <fieldset>
+                                <legend>Scribe</legend>
+                                <div class="form-group ">
+                                    <div class="col-lg-10 ">
+                                        <input type="text " class="form-control " id="inputComponents" name="inputComponents" placeholder="Components ">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <div class="col-lg-10 ">
+                                        <input type="text " class="form-control " id="inputDensity" name="inputDensity" placeholder="Density ">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <div class="col-lg-10 col-lg-offset-2 ">
+                                        <label class="btn btn-primary " id="submitbutton">Submit</label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <svg width="800 " height="800 "></svg>
+                </div>
+            </div>
         </section>
 
         <footer>
-            <div class="row">
-                <div class="col-lg-12">
+            <div class="row ">
+                <div class="col-lg-12 ">
                     <p>Parchmint was developed by CIDAR and CARES Lab</p>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled ">
                     </ul>
-                    <p>Based on <a href="https://github.com/thomaspark/bootswatch/">Paper</a>,
-                        <a href="https://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="https://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="https://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+                    <p>Based on <a href="https://github.com/thomaspark/bootswatch/ ">Paper</a>,
+                        <a href="https://getbootstrap.com " rel="nofollow ">Bootstrap</a>. Icons from <a href="https://fortawesome.github.io/Font-Awesome/ " rel="nofollow ">Font Awesome</a>. Web fonts from <a href="https://www.google.com/webfonts
+                    " rel="nofollow ">Google</a>.</p>
 
                 </div>
             </div>
@@ -107,36 +126,33 @@
 
     </div>
 
-    <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.min.js "></script>
+    <script src="./assets/js/bootstrap.min.js "></script>
+    <script src="./assets/js/custom.js "></script>
 
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="./assets/js/graph-inspector.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js "></script>
+    <script src="./assets/js/graph-inspector.js "></script>
 
     <script>
-        // Reference for the html input element
-        var inputElement = document.getElementById("input");
-
-        // on change run the 'handleFiles' method
-        inputElement.addEventListener("change", handleFiles, false);
-
-        function handleFiles() {
-            var file = this.files[0]; /* now you can work with the file list */
-
-            console.log(file.name); /* logged the filename */
-            reader.readAsText(file); /* this will make sense in a bit */
-
-        }
-
-        var reader = new FileReader();
-        reader.onload = function(e) {
-            /* Do something with the read reader.result */
-            parseJSON(reader.result);
-        }
+        $(document).ready(function() {
+            $('#submitbutton').click(function() {
+                console.log('Button clicked:');
+                var components = $("#inputComponents").val();
+                var density = $("#inputDensity").val();
+                console.log('components: ' + components);
+                console.log('density: ' + density);
+                $.get(
+                    'http://localhost:5000', {
+                        "components ": components,
+                        "density ": density
+                    },
+                    function(data) {
+                        console.log('This is the callback function');
+                        parseJSON(data);
+                    });
+            });
+        });
     </script>
-
-
 
 </body>
 
