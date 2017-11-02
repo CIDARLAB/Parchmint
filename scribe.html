@@ -95,7 +95,8 @@
                                 </div>
                                 <div class="form-group ">
                                     <div class="col-lg-10 col-lg-offset-2 ">
-                                        <label class="btn btn-primary " id="submitbutton">Submit</label>
+                                        <label class="btn btn-primary" id="submitbutton">Submit</label>
+                                        <a class="btn btn-info" id="downloadbutton"><i class="fa fa-download" aria-hidden="true"></i> &nbsp; Download</a>
                                     </div>
                                 </div>
                             </fieldset>
@@ -134,9 +135,11 @@
     <script src="./assets/js/graph-inspector.js "></script>
 
     <script>
+        var jsondata;
         $(document).ready(function() {
             $('#submitbutton').click(function() {
-                console.log('Button clicked:');
+                console.log('Submit button clicked:');
+                clearGraph();
                 var components = $("#inputComponents").val();
                 var density = $("#inputDensity").val();
                 console.log('components: ' + components);
@@ -148,8 +151,19 @@
                     },
                     function(data) {
                         console.log('This is the callback function');
+                        jsondata = JSON.stringify(data);
                         parseJSON(data);
                     });
+            });
+
+            $('#downloadbutton').click(function() {
+                $("<a />", {
+                        "download": "data.json",
+                        "href": "data:application/json," + encodeURIComponent(JSON.stringify(jsondata))
+                    }).appendTo("body")
+                    .click(function() {
+                        $(this).remove()
+                    })[0].click()
             });
         });
     </script>

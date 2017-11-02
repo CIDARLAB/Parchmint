@@ -205,6 +205,7 @@ function parseJSON(text) {
 }
 
 function clearGraph() {
+    console.log("Clearing the graph");
     d3.selectAll("svg > *").remove();
     data = {
         "nodes": [],
