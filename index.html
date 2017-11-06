@@ -186,25 +186,78 @@
   "port": "String"
 }              
                                               </code></pre>
+                        <pre><code class="json hljs">
+// Layer JSON
+                            
+{
+    "name": "String",
+    "id": "String"
+}              
+                        </code></pre>
+
 
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="bs-component">
                         <h3>Component JSON</h3>
-                        <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                        <p>
+                            The component JSON primarily contains the description of the component along with the information regarding the layers which contain the component, the parameters associated with the component and the complete set of ports which are available when routing
+                            the channels.
+                        </p>
                         <h5>Port JSON</h5>
-                        <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                        <p>
+                            Each of the port objects contain the label by which the port can be identified, their relative positions on the component and the layer in which they belong.
+                        </p>
                         <h3>Connection JSON</h3>
-                        <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                        <p>
+                            The connection JSON primarily holds the connectivity information and holds fields which store the source and sink infomation in the form of a target object. In addition to that it also stores the relevant parameters that might be used during the routing
+                            and fabrication stages.
+                        </p>
                         <h5>Target JSON</h5>
-                        <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-                        <h5>Params JSON</h5>
-                        <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                        <p>
+                            The target JSON is a tuple that stores the id of the component and the port's label to which the channel connects to.
+                        </p>
+                        <h3>Params JSON</h3>
+                        <p>
+                            The params are ubiquitous key, value storage fields that are available for every object that is part of the standard. It allows for various tools to store technology specific information that can be utilized as seen fit by each individual tool. It also
+                            allows for new ideas to be tested and proliferated before being incorporated into the main standard.
+                        </p>
+                        <h3>Layer JSON</h3>
+                        <p>
+                            The layer JSON objects serve a link to group various components and can be used to easliy query the role of the component within the device.
+                        </p>
+                        <h3>Feature JSON</h3>
+                        <p>
+                            The features JSON is primarily used as a representation for visual editor tools. It allows for the separation of the objects that are necessary for automation from the object that would be used for visualing the micrlofluidic device. This part of the
+                            standard is currently under development is will be included in future versions of this standard.
+                        </p>
+
                     </div>
 
                 </div>
                 <div class="col-lg-4">
+                    <div class="bs-component">
+                        <pre><code class="json hljs">
+// Component JSON
+
+{  
+    "name": "String",
+    "layers": ["String"],
+    "id": "String",
+    "params": {
+    "position": [
+        Integer,
+        Integer
+    ],
+    "key" : value 
+    },
+    "ports": [{Port}],
+    "entity": "String"
+}
+                          </code></pre>
+                    </div>
+
                     <div class="bs-component">
                         <pre><code class="json hljs">
 // Port JSON
@@ -219,23 +272,14 @@
                     </div>
                     <div class="bs-component">
                         <pre><code class="json hljs">
-// Component JSON
+// Params JSON
 
 {  
-  "name": "String",
-  "layers": ["String"],
-  "id": "String",
-  "params": {
-    "position": [
-      Integer,
-      Integer
-    ],
-    "key" : value 
-  },
-  "ports": [{Port}],
-  "entity": "String"
+    "key1": value,
+    "key2": value,
+    ...
 }
-                  </code></pre>
+                      </code></pre>
                     </div>
 
                 </div>

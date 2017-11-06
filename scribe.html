@@ -174,18 +174,22 @@
                     timeout: 600000
                 });
                 $.get(
-                    'http://parchmint.herokuapp.com/api/v1/scribe', {
-                        "name": name,
-                        "components": components,
-                        "density": density,
-                        "avgDegree": degree
-                    },
-                    function(data) {
-                        console.log('This is the callback function');
-                        jsondata = (data);
-                        parseJSON(data);
+                        'http://parchmint.herokuapp.com/api/v1/scribe', {
+                            "name": name,
+                            "components": components,
+                            "density": density,
+                            "avgDegree": degree
+                        },
+                        function(data) {
+                            console.log('This is the callback function');
+                            jsondata = (data);
+                            parseJSON(data);
+                            NProgress.done();
+                        }, )
+                    .error(function() {
+                        alert("There was an unexpected error in generating the benchmarks - Please try again !");
                         NProgress.done();
-                    }, );
+                    });
             });
 
             $('#downloadbutton').click(function() {
