@@ -8,11 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" href="./assets/css/custom.min.css">
-    <link rel="stylesheet" href="/path/to/styles/default.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <link rel="stylesheet" href="./assets/css/graph.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src='https://unpkg.com/nprogress@0.2.0/nprogress.js'></script>
+    <link rel='stylesheet' href='https://unpkg.com/nprogress@0.2.0/nprogress.css' />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -85,14 +85,25 @@
                                 <legend>Scribe</legend>
                                 <div class="form-group ">
                                     <div class="col-lg-10 ">
+                                        <input type="text " class="form-control " id="inputName" name="inputName" placeholder="Name (default: scribe) ">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <div class="col-lg-10 ">
                                         <input type="text " class="form-control " id="inputComponents" name="inputComponents" placeholder="Components ">
                                     </div>
                                 </div>
                                 <div class="form-group ">
                                     <div class="col-lg-10 ">
-                                        <input type="text " class="form-control " id="inputDensity" name="inputDensity" placeholder="Density ">
+                                        <input type="text " class="form-control " id="inputDensity" name="inputDensity" placeholder="Density (between: 0.1 - 0.4)">
                                     </div>
                                 </div>
+                                <div class="form-group ">
+                                    <div class="col-lg-10 ">
+                                        <input type="text " class="form-control " id="inputDegree" name="inputDegree" placeholder="Average Degree (between: 1 - 4)">
+                                    </div>
+                                </div>
+
                                 <div class="form-group ">
                                     <div class="col-lg-10 col-lg-offset-2 ">
                                         <label class="btn btn-primary" id="submitbutton">Submit</label>
@@ -129,7 +140,6 @@
 
     <script src="./assets/js/jquery.min.js "></script>
     <script src="./assets/js/bootstrap.min.js "></script>
-    <script src="./assets/js/custom.js "></script>
 
     <script src="https://d3js.org/d3.v4.min.js "></script>
     <script src="./assets/js/graph-inspector.js "></script>
@@ -140,26 +150,48 @@
             $('#submitbutton').click(function() {
                 console.log('Submit button clicked:');
                 clearGraph();
+                var name = $("#inputName").val();
+                if ("" == name) {
+                    name = "scribe";
+                }
+                var degree = $("#inputDegree").val();
+                if ("" == degree) {
+                    degree = 2;
+                }
                 var components = $("#inputComponents").val();
+                if ("" == components) {
+                    alert("Missing Component Value");
+                    return;
+                }
                 var density = $("#inputDensity").val();
+                if ("" == density) {
+                    density = 0.2;
+                }
                 console.log('components: ' + components);
                 console.log('density: ' + density);
+                NProgress.start();
+                $.ajaxSetup({
+                    timeout: 600000
+                });
                 $.get(
-                    'http://localhost:5000', {
-                        "components ": components,
-                        "density ": density
+                    'http://parchmint.herokuapp.com/api/v1/scribe', {
+                        "name": name,
+                        "components": components,
+                        "density": density,
+                        "avgDegree": degree
                     },
                     function(data) {
                         console.log('This is the callback function');
-                        jsondata = JSON.stringify(data);
+                        jsondata = (data);
                         parseJSON(data);
-                    });
+                        NProgress.done();
+                    }, );
             });
 
             $('#downloadbutton').click(function() {
                 $("<a />", {
                         "download": "data.json",
-                        "href": "data:application/json," + encodeURIComponent(JSON.stringify(jsondata))
+                        "href": "data:application/json," + (jsondata)
                     }).appendTo("body")
                     .click(function() {
                         $(this).remove()
