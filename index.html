@@ -111,23 +111,70 @@
                     <div class="bs-component">
                         <ul class="nav nav-pills">
                             <li class="active"><a href="#download" data-toggle="tab">Download</a></li>
-                            <li><a href="#profile" data-toggle="tab">Visualize</a></li>
-                            <li><a href="#dropdown1" data-toggle="tab">Scribe</a></li>
-                            <li><a href="#dropdown2" data-toggle="tab">Mimeo</a></li>
+                            <li><a href="#scribe" data-toggle="tab">Scribe</a></li>
+                            <li><a href="#visualize" data-toggle="tab">Visualize</a></li>
                         </ul>
                     </div>
                     <div id="myTabContent" class="tab-content">
                         <div class="tab-pane fade active in" id="download">
-                            <img src="./assets/img/viz.png" height="500px" />
-                        </div>
-                        <div class="tab-pane fade" id="visualize">
-                            <img src="./assets/img/viz.png" height="500px" />
+                            <div class="col-lg-4">
+                                <h4>Step 1: </h4>
+                                <p>
+                                    Use the benchmark space images to identify the benchmarks you want to test your algorithm against.
+                                </p>
+                                <br/>
+                                <h4>Step 2:</h4>
+                                <p>
+                                    Find the benchmark from our Github repository using the navigation bars links.
+                                </p>
+                                <br/>
+                                <h4>Step 3:</h4>
+                                <p>
+                                    Compare the final JSON outputs against those placed and routed in the repository.
+                                </p>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <img src="./assets/img/download.png" height="400px" />
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="scribe">
-                            <img src="./assets/img/viz.png" height="500px" />
+                            <div class="col-lg-4">
+                                <h4>Step 1:</h4>
+                                <p>
+                                    Fill out the fields necessary fields for generating the benchmark and click the generate button.
+                                </p>
+                                <br/>
+                                <h4>Step 2:</h4>
+                                <p>
+                                    Download the benchmark using the download button.
+                                </p>
+                                <br/>
+                                <h4>Step 3::</h4>
+                                <p>
+                                    Check to see if your algorithm is able to generate the layout for the benchmark.
+                                </p>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <img src="./assets/img/generate.png" height="400px" />
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="mimeo">
-                            <img src="./assets/img/viz.png" height="500px" />
+
+                        <div class="tab-pane fade in" id="visualize">
+                            <div class="col-lg-4">
+                                <h4>Visualize</h4>
+                                <p>
+                                    Upload the JSON file of the benchmark you wish to visualize. Clear the canvas when uploading new JSON files onto the visualizer.
+                                </p>
+                                <br/>
+                                <span class="lead">Note: The visualizer only shows the benchmark as an abstract graph. It does not render the placed and routed benchmark that as it would have to be manufactured.</span>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <img src="./assets/img/visualize.png" height="400px" />
+                            </div>
+
                         </div>
                     </div>
                 </div>

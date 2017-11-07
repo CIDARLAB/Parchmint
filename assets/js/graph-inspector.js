@@ -1,7 +1,7 @@
 function updateD3() {
     var svg = d3.select("svg"),
-        width = window.innerWidth, //+svg.attr("width"),
-        height = window.innerHeight //+svg.attr("height");
+        width = svg.attr("width"),
+        height = svg.attr("height");
 
     var color = d3.scaleOrdinal(d3.schemeCategory20);
 
