@@ -1,0 +1,1438 @@
+{
+    "components": [
+        {
+            "entity": "Input", 
+            "id": "45f243b6-49a8-4fd0-bd34-5bb004423ada", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Source1", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 20
+                }
+            ], 
+            "x-span": 20, 
+            "y-span": 20
+        }, 
+        {
+            "entity": "Input", 
+            "id": "7a435680-c609-4e3d-b431-999f2fe855f5", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Source2", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 20
+                }
+            ], 
+            "x-span": 20, 
+            "y-span": 20
+        }, 
+        {
+            "entity": "Output", 
+            "id": "aa41e785-51a5-446e-8348-a62ee523c898", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Out1", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 0
+                }
+            ], 
+            "x-span": 20, 
+            "y-span": 20
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "efad940a-6f36-4bae-9cfe-45eb37d939e5", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer1", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "1f99e9c0-78de-4f9c-af96-96fa7e101d39", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer2", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "222a943c-33a4-459d-a729-30e91ca3a9d3", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer3", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "cfc08018-f273-471e-807d-b98e97d0e724", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer4", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "3dcb81f0-3560-4ce0-bcdb-ad6e9081d18a", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer5", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "87780c5a-7302-4a2b-93dd-0e31b3fcca05", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer6", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "a5c9c0f1-f3f1-4b18-b5a7-2ea70dedcf99", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer7", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "a64aae0a-b199-4d4b-ac74-1c39667e6467", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer8", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "240b5e7f-bee6-443d-9e3d-9690bf90692d", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer9", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "85080d20-bde6-47bb-b9d3-70530c9d302f", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer10", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "a55d3336-9ece-421e-ba64-5882cb9cb1fe", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer11", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Mixer", 
+            "id": "25f86202-4b68-4b91-843c-2e62b16680b3", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Mixer12", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 200, 
+                    "y": 100
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 100
+                }
+            ], 
+            "x-span": 200, 
+            "y-span": 200
+        }, 
+        {
+            "entity": "Heater", 
+            "id": "928c9e3a-280b-46bc-995d-119e3e5d14a2", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Heater1", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 25
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 100, 
+                    "y": 25
+                }
+            ], 
+            "x-span": 100, 
+            "y-span": 50
+        }, 
+        {
+            "entity": "Heater", 
+            "id": "57e4b5fd-31bd-488a-acac-c19d21c3776c", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Heater2", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 25
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 100, 
+                    "y": 25
+                }
+            ], 
+            "x-span": 100, 
+            "y-span": 50
+        }, 
+        {
+            "entity": "Heater", 
+            "id": "9ef1266c-8e27-4583-9550-1a60551d6c85", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Heater3", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 25
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 100, 
+                    "y": 25
+                }
+            ], 
+            "x-span": 100, 
+            "y-span": 50
+        }, 
+        {
+            "entity": "Heater", 
+            "id": "94ec4667-7ca3-4811-8f11-69cc5adc98b0", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Heater4", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 25
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 100, 
+                    "y": 25
+                }
+            ], 
+            "x-span": 100, 
+            "y-span": 50
+        }, 
+        {
+            "entity": "Filter", 
+            "id": "a3915332-39dd-4620-9d4a-98813936fdb5", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Filter1", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 25, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 25, 
+                    "y": 50
+                }
+            ], 
+            "x-span": 50, 
+            "y-span": 50
+        }, 
+        {
+            "entity": "Filter", 
+            "id": "ee1cfc48-b4b8-4c06-9382-be52419a35fb", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Filter2", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 25, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 25, 
+                    "y": 50
+                }
+            ], 
+            "x-span": 50, 
+            "y-span": 50
+        }, 
+        {
+            "entity": "Filter", 
+            "id": "bfc95eb8-7509-4576-87f8-13b4332c3edb", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Filter3", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 25, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 25, 
+                    "y": 50
+                }
+            ], 
+            "x-span": 50, 
+            "y-span": 50
+        }, 
+        {
+            "entity": "Filter", 
+            "id": "af4e59b3-b764-4b61-9849-e34fe1f6fe8e", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "Filter4", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 25, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 25, 
+                    "y": 50
+                }
+            ], 
+            "x-span": 50, 
+            "y-span": 50
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "67da5cec-766e-423b-9037-f3c0a5eee9dd", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch3_0", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "88b935f5-0b18-4dfb-8daa-6c2de6d432e3", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_1", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "89f56bae-616f-496b-a4cc-f719195c3ec8", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_2", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "156bcd28-887f-4a60-99a8-cae43f9fccb0", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_3", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "d24c6ae7-b4e8-4118-a259-96fa917b41e2", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_4", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "8999b9c8-bda7-43b3-82c9-265cce4bf49d", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_5", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "6332ffae-41d2-4478-ac54-a05fe02919d6", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_6", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "b2bff670-4230-4e03-a14b-989b203e81d3", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_7", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "beeb6be0-00c2-437e-b62a-0cfcf6bbcb38", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_8", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "57fe74ea-15db-482f-ae7b-e481f4f9a7a7", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_9", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }, 
+        {
+            "entity": "Switch", 
+            "id": "9d8dce68-1d72-4cdb-822f-5a3aadc07372", 
+            "layers": [
+                "3d4b0184-618e-4d04-8551-cfb14b99b3d6"
+            ], 
+            "name": "flow_switch4_10", 
+            "ports": [
+                {
+                    "label": "port0", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 0
+                }, 
+                {
+                    "label": "port1", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 5, 
+                    "y": 10
+                }, 
+                {
+                    "label": "port2", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 0, 
+                    "y": 5
+                }, 
+                {
+                    "label": "port3", 
+                    "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+                    "x": 10, 
+                    "y": 5
+                }
+            ], 
+            "x-span": 10, 
+            "y-span": 10
+        }
+    ], 
+    "connections": [
+        {
+            "id": "66e90c61-ec90-4653-bcd0-2fef103fa261", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch3_0-Out1", 
+            "sinks": [
+                {
+                    "component": "aa41e785-51a5-446e-8348-a62ee523c898", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "67da5cec-766e-423b-9037-f3c0a5eee9dd", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "98ebafb9-4c55-4a3d-af50-3520a502a567", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch3_0-flow_switch4_9", 
+            "sinks": [
+                {
+                    "component": "57fe74ea-15db-482f-ae7b-e481f4f9a7a7", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "67da5cec-766e-423b-9037-f3c0a5eee9dd", 
+                "port": "port2"
+            }
+        }, 
+        {
+            "id": "e985c1cc-950b-45be-ab25-4b608835084c", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch3_0-flow_switch4_10", 
+            "sinks": [
+                {
+                    "component": "9d8dce68-1d72-4cdb-822f-5a3aadc07372", 
+                    "port": "port2"
+                }
+            ], 
+            "source": {
+                "component": "67da5cec-766e-423b-9037-f3c0a5eee9dd", 
+                "port": "port1"
+            }
+        }, 
+        {
+            "id": "f6dbdf85-a93f-4228-9aec-d647a8da09bc", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_9-flow_switch4_7", 
+            "sinks": [
+                {
+                    "component": "b2bff670-4230-4e03-a14b-989b203e81d3", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "57fe74ea-15db-482f-ae7b-e481f4f9a7a7", 
+                "port": "port1"
+            }
+        }, 
+        {
+            "id": "8d3d249f-ba5c-40d7-aca1-8bb36ffdbb6b", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_9-Filter1", 
+            "sinks": [
+                {
+                    "component": "a3915332-39dd-4620-9d4a-98813936fdb5", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "57fe74ea-15db-482f-ae7b-e481f4f9a7a7", 
+                "port": "port2"
+            }
+        }, 
+        {
+            "id": "be27e09e-4737-45a4-8075-8ef686c092bc", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_9-Filter2", 
+            "sinks": [
+                {
+                    "component": "ee1cfc48-b4b8-4c06-9382-be52419a35fb", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "57fe74ea-15db-482f-ae7b-e481f4f9a7a7", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "986415cd-ce58-4479-97c4-091d534d1933", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_10-flow_switch4_8", 
+            "sinks": [
+                {
+                    "component": "beeb6be0-00c2-437e-b62a-0cfcf6bbcb38", 
+                    "port": "port2"
+                }
+            ], 
+            "source": {
+                "component": "9d8dce68-1d72-4cdb-822f-5a3aadc07372", 
+                "port": "port1"
+            }
+        }, 
+        {
+            "id": "54284b17-f30d-4aaf-91c8-9d7b09edf3c8", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_10-Filter3", 
+            "sinks": [
+                {
+                    "component": "bfc95eb8-7509-4576-87f8-13b4332c3edb", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "9d8dce68-1d72-4cdb-822f-5a3aadc07372", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "431d0897-4aff-478c-b67c-976e10115902", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_10-Filter4", 
+            "sinks": [
+                {
+                    "component": "af4e59b3-b764-4b61-9849-e34fe1f6fe8e", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "9d8dce68-1d72-4cdb-822f-5a3aadc07372", 
+                "port": "port0"
+            }
+        }, 
+        {
+            "id": "298d3214-cb93-40e8-bf4c-d597d89f1beb", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_7-flow_switch4_5", 
+            "sinks": [
+                {
+                    "component": "8999b9c8-bda7-43b3-82c9-265cce4bf49d", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "b2bff670-4230-4e03-a14b-989b203e81d3", 
+                "port": "port1"
+            }
+        }, 
+        {
+            "id": "5df5ff14-aab1-4c73-b0bc-c213124d215f", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_7-Heater1", 
+            "sinks": [
+                {
+                    "component": "928c9e3a-280b-46bc-995d-119e3e5d14a2", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "b2bff670-4230-4e03-a14b-989b203e81d3", 
+                "port": "port2"
+            }
+        }, 
+        {
+            "id": "509e569e-72f4-4f0c-a919-544ea33d2a65", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_7-Heater2", 
+            "sinks": [
+                {
+                    "component": "57e4b5fd-31bd-488a-acac-c19d21c3776c", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "b2bff670-4230-4e03-a14b-989b203e81d3", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "d8bc9abd-9eda-4ed3-a4b2-b9ba718dc548", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_8-flow_switch4_6", 
+            "sinks": [
+                {
+                    "component": "6332ffae-41d2-4478-ac54-a05fe02919d6", 
+                    "port": "port2"
+                }
+            ], 
+            "source": {
+                "component": "beeb6be0-00c2-437e-b62a-0cfcf6bbcb38", 
+                "port": "port1"
+            }
+        }, 
+        {
+            "id": "76a6eeeb-0060-4862-afd0-a4485bb4860e", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_8-Heater3", 
+            "sinks": [
+                {
+                    "component": "9ef1266c-8e27-4583-9550-1a60551d6c85", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "beeb6be0-00c2-437e-b62a-0cfcf6bbcb38", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "353dfa2a-b125-4993-bf5e-35307139ae33", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_8-Heater4", 
+            "sinks": [
+                {
+                    "component": "94ec4667-7ca3-4811-8f11-69cc5adc98b0", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "beeb6be0-00c2-437e-b62a-0cfcf6bbcb38", 
+                "port": "port0"
+            }
+        }, 
+        {
+            "id": "c0eeec6a-3d4f-4d2d-b9b7-5ff9392e59b7", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_5-flow_switch4_3", 
+            "sinks": [
+                {
+                    "component": "156bcd28-887f-4a60-99a8-cae43f9fccb0", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "8999b9c8-bda7-43b3-82c9-265cce4bf49d", 
+                "port": "port1"
+            }
+        }, 
+        {
+            "id": "88e1252a-2725-4ec2-849c-8c41cbe2e395", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_5-Mixer9", 
+            "sinks": [
+                {
+                    "component": "240b5e7f-bee6-443d-9e3d-9690bf90692d", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "8999b9c8-bda7-43b3-82c9-265cce4bf49d", 
+                "port": "port2"
+            }
+        }, 
+        {
+            "id": "12e613f5-d402-41e6-b8c3-ece14a9f4ca2", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_5-Mixer10", 
+            "sinks": [
+                {
+                    "component": "85080d20-bde6-47bb-b9d3-70530c9d302f", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "8999b9c8-bda7-43b3-82c9-265cce4bf49d", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "b3989aaa-cefe-4689-91cf-5216516f3ca2", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_6-flow_switch4_4", 
+            "sinks": [
+                {
+                    "component": "d24c6ae7-b4e8-4118-a259-96fa917b41e2", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "6332ffae-41d2-4478-ac54-a05fe02919d6", 
+                "port": "port1"
+            }
+        }, 
+        {
+            "id": "a0b4b7da-2615-43ae-8213-4f477781e91b", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_6-Mixer11", 
+            "sinks": [
+                {
+                    "component": "a55d3336-9ece-421e-ba64-5882cb9cb1fe", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "6332ffae-41d2-4478-ac54-a05fe02919d6", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "a5bda674-deb4-4d3c-aebf-502e54323758", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_6-Mixer12", 
+            "sinks": [
+                {
+                    "component": "25f86202-4b68-4b91-843c-2e62b16680b3", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "6332ffae-41d2-4478-ac54-a05fe02919d6", 
+                "port": "port0"
+            }
+        }, 
+        {
+            "id": "ac78c65c-3118-482d-bbc6-41f39d7e040e", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_3-flow_switch4_1", 
+            "sinks": [
+                {
+                    "component": "88b935f5-0b18-4dfb-8daa-6c2de6d432e3", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "156bcd28-887f-4a60-99a8-cae43f9fccb0", 
+                "port": "port1"
+            }
+        }, 
+        {
+            "id": "19d1d0b2-3d55-42e2-aff4-7a1fe83dfade", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_3-Mixer5", 
+            "sinks": [
+                {
+                    "component": "3dcb81f0-3560-4ce0-bcdb-ad6e9081d18a", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "156bcd28-887f-4a60-99a8-cae43f9fccb0", 
+                "port": "port2"
+            }
+        }, 
+        {
+            "id": "6d01d899-ecac-4231-954d-75f5036fb4fc", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_3-Mixer6", 
+            "sinks": [
+                {
+                    "component": "87780c5a-7302-4a2b-93dd-0e31b3fcca05", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "156bcd28-887f-4a60-99a8-cae43f9fccb0", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "97e3d62d-48a3-4429-b42e-4e699a6b3638", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_4-flow_switch4_2", 
+            "sinks": [
+                {
+                    "component": "89f56bae-616f-496b-a4cc-f719195c3ec8", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "d24c6ae7-b4e8-4118-a259-96fa917b41e2", 
+                "port": "port2"
+            }
+        }, 
+        {
+            "id": "f18d0e5d-301d-4378-941e-1846819f785f", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_4-Mixer7", 
+            "sinks": [
+                {
+                    "component": "a5c9c0f1-f3f1-4b18-b5a7-2ea70dedcf99", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "d24c6ae7-b4e8-4118-a259-96fa917b41e2", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "78e65406-b599-4644-b0f2-f77a17cf87cd", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_4-Mixer8", 
+            "sinks": [
+                {
+                    "component": "a64aae0a-b199-4d4b-ac74-1c39667e6467", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "d24c6ae7-b4e8-4118-a259-96fa917b41e2", 
+                "port": "port0"
+            }
+        }, 
+        {
+            "id": "5e5e01d0-5bb9-4beb-ab21-d465423a4409", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_1-Source1", 
+            "sinks": [
+                {
+                    "component": "45f243b6-49a8-4fd0-bd34-5bb004423ada", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "88b935f5-0b18-4dfb-8daa-6c2de6d432e3", 
+                "port": "port3"
+            }
+        }, 
+        {
+            "id": "ba430aab-d880-475d-8b7f-61b4b8736575", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_1-Mixer1", 
+            "sinks": [
+                {
+                    "component": "efad940a-6f36-4bae-9cfe-45eb37d939e5", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "88b935f5-0b18-4dfb-8daa-6c2de6d432e3", 
+                "port": "port2"
+            }
+        }, 
+        {
+            "id": "e2b80d9f-ae6c-4e7d-9918-a694259ad20d", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_1-Mixer2", 
+            "sinks": [
+                {
+                    "component": "1f99e9c0-78de-4f9c-af96-96fa7e101d39", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "88b935f5-0b18-4dfb-8daa-6c2de6d432e3", 
+                "port": "port0"
+            }
+        }, 
+        {
+            "id": "2262a75e-3a9c-43d2-a1a5-b66365e6a1cd", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_2-Source2", 
+            "sinks": [
+                {
+                    "component": "7a435680-c609-4e3d-b431-999f2fe855f5", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "89f56bae-616f-496b-a4cc-f719195c3ec8", 
+                "port": "port1"
+            }
+        }, 
+        {
+            "id": "3553a986-b82d-47c2-9e62-1853dd4fe2d7", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_2-Mixer3", 
+            "sinks": [
+                {
+                    "component": "222a943c-33a4-459d-a729-30e91ca3a9d3", 
+                    "port": "port0"
+                }
+            ], 
+            "source": {
+                "component": "89f56bae-616f-496b-a4cc-f719195c3ec8", 
+                "port": "port2"
+            }
+        }, 
+        {
+            "id": "d34e5347-0910-46b0-a616-b02d9fe073ca", 
+            "layer": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow_switch4_2-Mixer4", 
+            "sinks": [
+                {
+                    "component": "cfc08018-f273-471e-807d-b98e97d0e724", 
+                    "port": "port1"
+                }
+            ], 
+            "source": {
+                "component": "89f56bae-616f-496b-a4cc-f719195c3ec8", 
+                "port": "port3"
+            }
+        }
+    ], 
+    "layers": [
+        {
+            "id": "3d4b0184-618e-4d04-8551-cfb14b99b3d6", 
+            "name": "flow"
+        }
+    ], 
+    "name": "Planar_Synthetic_3"
+}
