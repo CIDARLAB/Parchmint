@@ -89,9 +89,52 @@ The `connectors` key contains an array of connection objects which represent all
 
 ### Features
 
+The `features` key contains two different types of objects; component features which represent the placed information for a component for analysis and fabrication, and connection features which represent a straight line route segment of a connection.
+
+#### Component Feature
+
+The compnoent feature contains `name`, `id`, and `layer` fields which should match the `name` and `id` field of the abstract component in the `components` array that it represents and one of the layers in the abstract components layers list. It should also contain a `location` object which contians `x` and `y` keys with the integer location of the component bounding boxes upper left point and a `x-span` and `y-span` keys which represnt the size of the bounding box, and a `depth` key representing how deep the component should be.
+
 ```
 "features": [
+    {
+        "name": "mixer-001",
+        "id": "unique-mixer-id-string",
+        "layer": "unique-flow-layer-id-string,
+        "location": {
+            "x": 500,
+            "y": 2000
+        },
+        "x-span": 4500,
+        "y-span": 1500,
+        "depth": 10
+    }
+]
+```
 
+#### Connection Feature
+
+The connection feature contains an `id` field which should be a unique id string and a `name` field which should be a human readable name. It also contains a `connection` key which should be the id of the connection that this connection feature is a straight line segment of and a `layer` which should match the layer that that connection is supposed to be routed on unless this connection utilizes through-layer vias. It contains `width` and `depth` keys which represent the width of the channel tangentially to its direction of travel and its channel depth, respectively, as well as `source` and `sink` keys, which each contain a single object with `x` and `y` keys represent each end of this straight line segment. Finally, it contains a `type` key which currently is always set to `"channel"`.
+
+```
+"features": [
+    {
+        "name": "mixer-flow-connection-segment-001",
+        "id": "unique-channel-segment-id",
+        "connection": "unique-mixer-flow-connection-id,
+        "layer": "unique-flow-layer-id-string",
+        "width": 5,
+        "depth": 10,
+        "source": {
+            "x": 500,
+            "y": 2750
+        },
+        "sink": {
+            "x": 50,
+            "y": 2750
+        }
+        "type": "channel"
+    }
 ]
 ```
 
