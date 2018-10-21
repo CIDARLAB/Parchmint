@@ -25,7 +25,7 @@ The `layers` key contains an array of layer ojects. Each individual layer object
 
 ### Components
 
-The `components` key contains an array of component objects. Each individual component object contains a unique id string `id` and a human readable name string `name`. The component object also contains a number of keys which represent the components physical presence such as the `layers` key, which is an array of layer id's representing which layers this component exists on,the `x-span` and `y-span` integer keys which represent the the amount of space the component's bounding box takes in the x and y directions, respectively, and the `entity` string key which represents what type of component this component object represents. Finally the component object contains a `ports` key which contains an array of port objects. Each port object has a `label` string key which is similar to a unique id but is only required to be unique within that port list (this allows you to re-use the same port names between the same components), a `layer` string key which signifies which layer the port is located on (and should be one of the layers listed in the component object's layer list), and an `x` and `y` integer key which represents the ports x and y direction offset relative to the upper left of the component objects bounding box (making this port location relative to the component). Because this architecture system assumes zero knowledge of the component internals, ports should only exist at the edge of the component bounding box.
+The `components` key contains an array of component objects which represent all the unplaced components in your microfluidic device. Each individual component object contains a unique id string `id` and a human readable name string `name`. The component object also contains a number of keys which represent the components physical presence such as the `layers` key, which is an array of layer id's representing which layers this component exists on, the `x-span` and `y-span` integer keys which represent the the amount of space the component's bounding box takes in the x and y directions, respectively, and the `entity` string key which represents what type of component this component object represents. Finally the component object contains a `ports` key which contains an array of port objects. Each port object has a `label` string key which is similar to a unique id but is only required to be unique within that port list (this allows you to re-use the same port names between the same components), a `layer` string key which signifies which layer the port is located on (and should be one of the layers listed in the component object's layer list), and an `x` and `y` integer key which represents the ports x and y direction offset relative to the upper left of the component objects bounding box (making this port location relative to the component). Because this architecture system assumes zero knowledge of the component internals, ports should only exist at the edge of the component bounding box.
 
 ```
 "components": [
@@ -65,15 +65,35 @@ The `components` key contains an array of component objects. Each individual com
 
 ### Connections
 
+The `connectors` key contains an array of connection objects which represent all the unrouted connections in your microfluidic device. Each individual connection object contains a unique id string `id` and a human readable name string `name`. The connection object contains a `layer` key which is the layer id for the layer this connection exists on and a `source` and `sinks` key. The `source` and `sinks` keys each contain terminal objects, with the `source` containing a single terminal object and the `sinks` containing an array of terminal objects to allow for the representation of multinets. Each terminal object contains a `component` key which is a component id and represents which component this connecitons starts or ends at and an optional `port` key which represents which port on that component this connection uses if a specific port is required.
+
 ```
 "connections": [
     {
-
+        "id": "unique-mixer-flow-connection-id",
+        "name": "mixer-flow-connection,
+        "layer": "unique-flow-layer-id-string",
+        "source": {
+            "component": "unique-mixer-id-string",
+            "port": "input-port"
+        },
+        "sinks": [
+            {
+                "component": "unique-output-id-string",
+                "port": "io-port"
+            }
+        ]
     }
 ]
 ```
 
 ### Features
+
+```
+"features": [
+
+]
+```
 
 ## Benchmarks
 
