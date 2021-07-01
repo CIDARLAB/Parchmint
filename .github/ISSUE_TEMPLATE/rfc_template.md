@@ -1,3 +1,11 @@
+---
+name: RFC Template
+about: Create a report to help us improve the standard
+title: ''
+labels: ''
+assignees: ''
+---
+
 - Start Date: (fill me in with today's date, YYYY-MM-DD)
 - RFC PR: (leave this empty)
 - Parchmint Issue: (leave this empty)
